@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+issueTrackerURL="https://github.com/onVoid/SteelsDelight/issues"
+
+
+[[mods]]
+modId="steelsdelight"
+version="${file.jarVersion}"
+displayName="Steel's Delight"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/steel-delight"
+updateJSONURL="https://onvoid.net/steelsdelight/update.json"
+logoFile="steelsdelight.png"
+logoBlur=false
+credits="vectorwing - Farmer's Delight creator"
+authors="onVoid"
+description="Adds a Steel Knife to Farmer's Delight."
+itemIcon="steelsdelight:steel_knife"
+configBackground="minecraft:textures/block/bricks.png"
+
+[[dependencies.steelsdelight]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.steelsdelight]]
+    modId="farmersdelight"
+    mandatory=true
+    versionRange="[1.16.5-0.5,]"
+    ordering="AFTER"
+    side="BOTH"
