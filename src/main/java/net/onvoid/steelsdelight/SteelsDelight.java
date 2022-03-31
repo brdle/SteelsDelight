@@ -13,14 +13,14 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.function.Supplier;
 
-@Mod("coppersdelight")
+@Mod("steelsdelight")
 public class SteelsDelight
 {
-    public static final String MODID = "coppersdelight";
+    public static final String MODID = "steelsdelight";
     public static SteelsDelight instance;
     public static CommonProxy proxy;
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final Supplier<Ingredient> copperIngredient = () -> Ingredient.of(ForgeTagHandler.makeWrapperTag(ForgeRegistries.ITEMS, new ResourceLocation("forge", "ingots/copper")));
+    public static final Supplier<Ingredient> steelIngredient = () -> Ingredient.of(ForgeTagHandler.makeWrapperTag(ForgeRegistries.ITEMS, new ResourceLocation("forge", "ingots/steel")));
 
     public SteelsDelight() {
         instance = this;

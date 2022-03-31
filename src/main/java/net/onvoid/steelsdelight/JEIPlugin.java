@@ -8,7 +8,7 @@ import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
-import net.onvoid.steelsdelight.common.CoppersDelightItems;
+import net.onvoid.steelsdelight.common.SteelsDelightItems;
 import vectorwing.farmersdelight.FarmersDelight;
 import vectorwing.farmersdelight.utils.TextUtils;
 import javax.annotation.ParametersAreNonnullByDefault;
@@ -24,7 +24,7 @@ public class JEIPlugin implements IModPlugin
 
     @Override
     public void registerRecipes(IRecipeRegistration registration) {
-        registration.addIngredientInfo(new ItemStack(CoppersDelightItems.COPPER_KNIFE.get()), VanillaTypes.ITEM, TextUtils.getTranslation("jei.info.knife"));
+        registration.addIngredientInfo(new ItemStack(SteelsDelightItems.STEEL_KNIFE.get()), VanillaTypes.ITEM, TextUtils.getTranslation("jei.info.knife"));
     }
 
     @Override

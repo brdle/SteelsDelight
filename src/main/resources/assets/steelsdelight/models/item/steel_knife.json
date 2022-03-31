@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "coppersdelight:item/copper_knife"
+    "layer0": "steelsdelight:item/steel_knife"
   }
 }

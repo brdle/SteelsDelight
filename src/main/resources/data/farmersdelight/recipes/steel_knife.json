@@ -6,13 +6,13 @@
   ],
   "key": {
     "m": {
-      "tag": "forge:ingots/copper"
+      "tag": "forge:ingots/steel"
     },
     "s": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "coppersdelight:copper_knife"
+    "item": "steelsdelight:steel_knife"
   }
 }
