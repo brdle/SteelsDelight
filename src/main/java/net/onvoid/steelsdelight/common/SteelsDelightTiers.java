@@ -3,12 +3,10 @@ package net.onvoid.steelsdelight.common;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 import net.onvoid.steelsdelight.SteelsDelight;
-
 import java.util.function.Supplier;
 
-
 public enum SteelsDelightTiers implements IItemTier {
-    STEEL(2, 150, 5.0F, 1.5F, 14, SteelsDelight.steelIngredient);
+    STEEL(2, 484, 6.5F, 2.0F, 16, SteelsDelight.steelIngredient);
 
     private final int level;
     private final int uses;
@@ -17,7 +15,7 @@ public enum SteelsDelightTiers implements IItemTier {
     private final int enchantmentValue;
     private final Supplier<Ingredient> repairIngredient;
 
-    private SteelsDelightTiers(int level, int uses, float speed, float damage, int enchantmentValue, Supplier<Ingredient> repairIngredient) {
+    SteelsDelightTiers(int level, int uses, float speed, float damage, int enchantmentValue, Supplier<Ingredient> repairIngredient) {
         this.level = level;
         this.uses = uses;
         this.speed = speed;

@@ -10,7 +10,6 @@ import net.onvoid.steelsdelight.proxy.ClientProxy;
 import net.onvoid.steelsdelight.proxy.CommonProxy;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.function.Supplier;
 
 @Mod("steelsdelight")
