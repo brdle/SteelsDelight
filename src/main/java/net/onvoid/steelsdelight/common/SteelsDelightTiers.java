@@ -3,7 +3,6 @@ package net.onvoid.steelsdelight.common;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.onvoid.steelsdelight.SteelsDelight;
-
 import java.util.function.Supplier;
 
 public enum SteelsDelightTiers implements Tier {
