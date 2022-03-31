@@ -1,11 +1,12 @@
 package net.onvoid.steelsdelight.common;
 
-import net.minecraft.item.IItemTier;
-import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.onvoid.steelsdelight.SteelsDelight;
+
 import java.util.function.Supplier;
 
-public enum SteelsDelightTiers implements IItemTier {
+public enum SteelsDelightTiers implements Tier {
     STEEL(2, 484, 6.5F, 2.0F, 16, SteelsDelight.steelIngredient);
 
     private final int level;

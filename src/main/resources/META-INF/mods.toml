@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[39,)"
 license="MIT License"
 issueTrackerURL="https://github.com/onVoid/SteelsDelight/issues"
 
@@ -21,13 +21,13 @@ configBackground="minecraft:textures/block/bricks.png"
 [[dependencies.steelsdelight]]
     modId="forge"
     mandatory=true
-    versionRange="[36,)"
+    versionRange="[39,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.steelsdelight]]
     modId="farmersdelight"
     mandatory=true
-    versionRange="[1.16.5-0.5,]"
+    versionRange="[1.18.1-1.0.3,]"
     ordering="AFTER"
     side="BOTH"
