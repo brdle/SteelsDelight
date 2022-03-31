@@ -1,27 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ingots/steel"
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:tag_empty",
+            "tag": "forge:ingots/steel"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " m",
+          "s "
+        ],
+        "key": {
+          "m": {
+            "tag": "forge:ingots/steel"
+          },
+          "s": {
+            "item": "minecraft:stick"
+          }
+        },
+        "result": {
+          "item": "steelsdelight:steel_knife"
+        }
       }
     }
-  ],
-  "pattern": [
-    " m",
-    "s "
-  ],
-  "key": {
-    "m": {
-      "tag": "forge:ingots/steel"
-    },
-    "s": {
-      "item": "minecraft:stick"
-    }
-  },
-  "result": {
-    "item": "steelsdelight:steel_knife"
-  }
+  ]
 }
