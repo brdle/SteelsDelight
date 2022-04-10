@@ -2,7 +2,6 @@ package net.onvoid.steelsdelight;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraftforge.common.ForgeTagHandler;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -19,7 +18,7 @@ public class SteelsDelight
     public static SteelsDelight instance;
     public static CommonProxy proxy;
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final Supplier<Ingredient> steelIngredient = () -> Ingredient.of(ForgeTagHandler.makeWrapperTag(ForgeRegistries.ITEMS, new ResourceLocation("forge", "ingots/steel")));
+    public static final Supplier<Ingredient> steelIngredient = () -> Ingredient.of(ForgeRegistries.ITEMS.getValue(new ResourceLocation("forge", "ingots/steel")));
 
     public SteelsDelight() {
         instance = this;

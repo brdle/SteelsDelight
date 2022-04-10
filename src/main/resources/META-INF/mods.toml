@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[39,)"
+loaderVersion="[40,)"
 license="MIT License"
 issueTrackerURL="https://github.com/onVoid/SteelsDelight/issues"
 
@@ -13,7 +13,7 @@ updateJSONURL="https://onvoid.net/steelsdelight/update.json"
 logoFile="steelsdelight.png"
 logoBlur=false
 credits="vectorwing - Farmer's Delight creator"
-authors="onVoid"
+authors="brdle"
 description="Adds a Steel Knife to Farmer's Delight."
 itemIcon="steelsdelight:steel_knife"
 configBackground="minecraft:textures/block/bricks.png"
@@ -21,13 +21,13 @@ configBackground="minecraft:textures/block/bricks.png"
 [[dependencies.steelsdelight]]
     modId="forge"
     mandatory=true
-    versionRange="[39,)"
+    versionRange="[40,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.steelsdelight]]
     modId="farmersdelight"
     mandatory=true
-    versionRange="[1.18.1-1.0.3,]"
+    versionRange="[1.18.2-1.0.4,]"
     ordering="AFTER"
     side="BOTH"
